@@ -10,7 +10,6 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
-
 - task: AzureResourceManagerTemplateDeployment@3
   inputs:
     deploymentScope: 'Resource Group'
@@ -21,5 +20,5 @@ steps:
     location: 'Central India'
     templateLocation: 'Linked artifact'
     csmFile: '$(Build.Repository.LocalPath)/pluglatam/vmTemplate.json'
-    csmParametersFile: '$(Build.Repository.LocalPath)/pluglatam/vmTemplate.json'
+    csmParametersFile: '$(Build.Repository.LocalPath)/pluglatam/parametersFile.json'
     deploymentMode: 'Incremental'
