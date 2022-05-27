@@ -1,0 +1,39 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "vmName": {
+      "value": "simpleLinuxVM2"
+    },
+    "adminUsername": {
+      "value": "Sourav"
+    },
+    "authenticationType": {
+      "value": "password"
+    },
+    "adminPasswordOrKey": {
+      "value": null
+    },
+    "dnsLabelPrefix": {
+      "value": "simplelinuxvm-3fwhu4ieh56j6"
+    },
+    "ubuntuOSVersion": {
+      "value": "18.04-LTS"
+    },
+    "location": {
+      "value": "centralindia"
+    },
+    "vmSize": {
+      "value": "Standard_B2s"
+    },
+    "virtualNetworkName": {
+      "value": "vNet"
+    },
+    "subnetName": {
+      "value": "Subnet"
+    },
+    "networkSecurityGroupName": {
+      "value": "SecGroupNet"
+    }
+  }
+}
