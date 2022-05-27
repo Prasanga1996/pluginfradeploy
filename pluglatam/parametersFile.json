@@ -24,7 +24,7 @@
       "value": "centralindia"
     },
     "vmSize": {
-      "value": "Standard_B2s"
+      "value": "Standard_B2ms"
     },
     "virtualNetworkName": {
       "value": "vNet"
