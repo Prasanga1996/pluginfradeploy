@@ -12,10 +12,10 @@
       "value": "password"
     },
     "adminPasswordOrKey": {
-      "value": null
+      "value": "LetsHaveFun#12"
     },
     "dnsLabelPrefix": {
-      "value": "simplelinuxvm-3fwhu4ieh56j6"
+      "value": "simplelinuxvm-4ieh56j6"
     },
     "ubuntuOSVersion": {
       "value": "18.04-LTS"
